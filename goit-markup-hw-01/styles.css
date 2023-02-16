@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+  }
+  
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    font-size: x-large;
+}
+
+li {
+    list-style: none;
+}
