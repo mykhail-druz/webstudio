@@ -5,14 +5,17 @@
     src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
   }
   
-html, body {
+body {
     font-family: 'Roboto', sans-serif;
+    color: #757575;
+    font-size: 16px;
 }
 
 
 header {
     display: flex;
     justify-content: space-between;
+    max-height: 80px;
 }
 
 nav {
@@ -21,9 +24,61 @@ nav {
 
 a {
     text-decoration: none;
-    font-size: x-large;
+    color: #212121;
 }
 
 li {
     list-style: none;
+}
+
+.logo {
+    color: #000000;
+    font-size: 26px;
+}
+
+.logo__web {
+    color: #2196F3;
+    font-weight: 400;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__list li {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 4px;
+}
+
+#nav__contacts {
+    display: flex;
+}
+
+#nav__contacts li {
+    margin: 0 50px;
+}
+
+.banner {
+    background-color: #2F303A;
+    text-align: center;
+    min-height: 600px;
+}
+
+.banner__text {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    display: flex;
+    margin: 36px;
+}
+
+.banner__button {
+    padding: 10px 32px;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #2196F3;
+    color: #FFFFFF;
 }
