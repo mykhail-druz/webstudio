@@ -143,6 +143,10 @@ link:hover {
   cursor: pointer;
 }
 
+.banner__button:hover {
+  background-color: transparent;
+}
+
 .details {
   background-color: var(--bg-color);
   padding: 50px;
@@ -267,6 +271,7 @@ footer .logo {
 
 .adress {
   color: var(--bg-color);
+  font-style: normal;
 }
 
 .adress:hover {
@@ -275,6 +280,7 @@ footer .logo {
 
 .contacts {
   color: #ffffff99;
+  font-style: normal;
 }
 
 .contacts:hover {
