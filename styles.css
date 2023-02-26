@@ -2,11 +2,14 @@ body {
   font-family: "Roboto", sans-serif;
   color: #757575;
   font-size: 16px;
+}
+
+main {
   background-color: #F5F5F5;
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 a {
@@ -230,4 +233,66 @@ footer .logo {
   color: #FFFFFF99;
 }
 
+.buttons {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
 
+.buttons li {
+  margin: 0 10px;
+}
+
+.buttons button{
+  background-color: #f5f4fa;
+  border: none;
+  color: #212121;
+  font-size: 16px;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.buttons button:hover {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.main {
+  background-color: #FFFFFF;
+}
+
+.container {
+  background-color: #FFFFFF;
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio li {
+  margin: 20px;
+  width: 370px;
+  height: 400px;
+  text-align: center;
+}
+
+.portfolio li img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.portfolio li h3 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.portfolio li p {
+  font-size: 18px;
+  margin: 0;
+}
