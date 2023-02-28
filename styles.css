@@ -1,11 +1,11 @@
 :root {
-  --bg-color: #F5F5F5;
+  --bg-color: #f5f5f5;
   --logo-color: #000000;
-  --title-color: #FFFFFF;
+  --title-color: #ffffff;
   --title2-color: #212121;
   --desc-color: #757575;
-  --banner-color: #2F303A;
-  --secondary-color: #2196F3;
+  --banner-color: #2f303a;
+  --secondary-color: #2196f3;
 }
 
 * {
@@ -43,6 +43,8 @@ link:hover {
   padding: 10px 20px;
   background-color: var(--title-color);
   border-bottom: 1px solid #eee;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .logo {
@@ -93,10 +95,11 @@ link:hover {
   list-style: none;
   margin: 0;
   padding: 0;
+  margin-right: 80px;
 }
 
 .nav__contacts li {
-  margin-right: 30px;
+  margin-right: 40px;
 }
 
 .nav__contacts a {
@@ -127,7 +130,7 @@ link:hover {
   font-size: 44px;
   font-weight: 900;
   line-height: 60px;
-  width: 30%;
+  width: 35%;
   margin-bottom: 30px;
 }
 
@@ -150,6 +153,8 @@ link:hover {
 .details {
   background-color: var(--bg-color);
   padding: 50px;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .details__list {
@@ -181,7 +186,8 @@ link:hover {
 .works {
   text-align: center;
   background-color: var(--bg-color);
-  width: 100%;
+  width: 70%;
+  margin: 0 auto;
   margin-bottom: 2rem;
 }
 
@@ -213,8 +219,9 @@ link:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  width: 70%;
 }
 
 .team__list li {
@@ -367,4 +374,3 @@ footer .logo {
   line-height: 30px;
   margin: 0;
 }
-
